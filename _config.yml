@@ -1,0 +1,12 @@
+# Site settings
+title: Storm Coder
+email: your-email@domain.com
+description: A blog about my journey in learning web development
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  imrjack
+
+# Build settings
+markdown: kramdown
+permalink: pretty
