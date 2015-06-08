@@ -56,7 +56,7 @@ $('.date').each(function(){
 
 The result!!!
 
-({{site.url}}/images/todo_pic.jpg)
+![screenshot]({{site.url}}/images/todo_pic.jpg)
 
 
 
