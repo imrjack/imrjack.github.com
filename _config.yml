@@ -1,8 +1,10 @@
 # Site settings
+name: Jack Duong
+author: Jack Duong
 title: Storm Coder
-email: your-email@domain.com
+email: son.jack0218@gmail.com
 description: A blog about my journey in learning web development
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" 
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  imrjack
@@ -11,3 +13,6 @@ github_username:  imrjack
 markdown: kramdown
 permalink: pretty
 
+# pagination
+
+paginate: 7

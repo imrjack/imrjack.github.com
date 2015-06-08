@@ -1,25 +1,19 @@
-<header class="site-header">
-
-  <div class="wrapper">
-
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-    <nav class="site-nav">
-
-      <a href="#" class="menu-icon">
-      </a>
-      <div class="trigger">
-         
-        {% for page in site.pages %}
-          {% if page.title %}
-         <ul>
-  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-      </ul>
-
-          {% endif %}
-        {% endfor %}
-      </div>
-      </nav>
-  </div>
-
-</header>
+  <div class='banner'></div>
+    
+    <div id='wrapper' class='container'>
+      <div class='row'>
+        <div id='sidebar-wrapper' class='col-lg-3'>
+        <ul class='sidebar-nav'>
+          <li class='sidebar-brand'>
+            <a class='a-brand' href='/'><h1>Storm Coder</h1></a>
+            </li>
+            <hr class= 'hr-brand'>
+          <li class='subtitle'>  
+            <h3>Jack's blog</h3>
+          </li>
+          <li>
+            <a href='/about'>about</a>
+          </li>
+        </ul>
+       </div>
+    

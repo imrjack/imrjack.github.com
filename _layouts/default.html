@@ -5,16 +5,33 @@
 
   <body>
 
-    {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+  <div class='banner'></div>
+    
+    <div id='wrapper' class='container'>
+      <div class='row'>
+        <div id='sidebar-wrapper' class='col-lg-3'>
+        <ul class='sidebar-nav'>
+          <li class='sidebar-brand'>
+            <a class='a-brand' href='/'><h1>Storm Coder</h1></a>
+            </li>
+            <hr class= 'hr-brand'>
+          <li class='subtitle'>  
+            <h3>Jack's blog</h3>
+          </li>
+          <li>
+            <a href='/about'>about</a>
+          </li>
+        </ul>
+       </div>
+    <div class='col-lg-9 content'>
+      {{content}}
     </div>
+    </div>
+  </div>
 
-    {% include footer.html %}
 
+{% include footer.html %}
   </body>
 
 </html>
