@@ -54,9 +54,8 @@ $('.date').each(function(){
 });
 {% endhighlight %}
 
-The result!!!
 
-![screenshot]({{site.url}}/images/todo_pic.jpg)
+[the result!!]({{site.url}}/images/todo_pic.jpg)
 
 
 
