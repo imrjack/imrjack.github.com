@@ -6,7 +6,7 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h2> {{page.title}}</h2>
+    <h2 class= 'post-title'> {{page.title}}</h2>
     {% if site.name %} 
     <h6> {{site.name}} {{page.date | date: "%a %b %d, %Y" }} </h6>
      {% endif %}
@@ -17,3 +17,6 @@ layout: default
   </article>
 
 </div>
+
+
+{% include google-analytics.html %}

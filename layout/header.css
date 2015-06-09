@@ -3,6 +3,14 @@ html, body{
   height:100%;
     }
 
+h1{
+  font-size: 2.9vmax; 
+}
+
+h3{
+  font-size: 2.4vmax;
+}
+
 .container{
   display:table;
   height:100%;
@@ -35,20 +43,23 @@ html, body{
   background: #000;
   min-height:100%;
   width:25%;
-  height:100%;
-  float: none;
-  display:table-cell;
   text-align: center;
+  position:fixed;
+  top:0;
 }
+  
 
 
 
 .sidebar-brand{
-  margin-top: -4em;
+  
 }
 
 a:hover, .sidebar-brand{
    text-decoration: none;
+}
+
+.sidebar-nav{
 }
 
 .a-brand{
@@ -74,8 +85,7 @@ a:hover, .sidebar-brand{
   width:75%;
   height:100%;
   min-height:100%;  
-  float:none;
-  z-index:1000;
+  float:right;
 }
 
 /*post*/
@@ -107,6 +117,7 @@ a:hover, .sidebar-brand{
 }
 
 /*footer*/
+
 
 
 
