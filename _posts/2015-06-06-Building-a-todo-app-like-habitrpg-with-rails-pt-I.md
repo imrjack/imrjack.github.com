@@ -5,7 +5,7 @@ date: 2015-06-06
 ---
 
 
-So there's this really cool todo app called habitrpg. It basically treats your life as if it were an rpg game.
+So there's this really cool todo app called [habitrpg](http://www.habitrpg.com) It basically treats your life as if it were an rpg game.
 You have an avatar that has levels, hp and an experience bar.  If you complete the tasks you assign to your self, then you get 
 experience, coins, and level up!!  Conversely if you miss a task, you lose hp and you can die! It's a really cool idea and it 
 really motivates you to do stop procrastinating.  The only thing is, real life isn't being controlled by some system and no one can actually if you complete your tasks or not besides yourself lol.  But if you're motivated -like I am - it'll totally work.  
@@ -36,9 +36,9 @@ The problem with this code was that there was no unique id assigned to the text_
 So a search on google immediately told me that I was missing a unique id.  
 
 The syntax was a bit tricky for me but I eventually figured it out:
-<% highlight ruby %>
+{% highlight ruby %}
   <%= f.text_field :due_date, class:'due_date', id: "'due_date_'#{task.id}", placeholder:'due date', readonly:'readonly' %>
-<% endhighlight %>
+{% endhighlight %}
 
 A check in firebug let me know that I got a unique id.  The readonly attribute makes the text area only editable through datepicker, and not through type.
 
