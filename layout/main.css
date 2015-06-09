@@ -132,14 +132,14 @@ a:hover, .sidebar-brand{
 .container-fluid{
   position:relative;
   display:block;
-  margin:-1;
+  margin-right: -2.4em;
   padding: -1;
   }
 
 #sidebar-wrapper{
   position:relative;
-  width:100%;
-  margin-right: -3px;
+  width:110%;
+  margin-right: -29px;
   float:right;
 }
 
