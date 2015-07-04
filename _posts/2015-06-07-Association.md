@@ -4,15 +4,17 @@ layout: post
 date: 2015-06-07
 ---
 
-In Rails, an assoication is a connection between two Active Record models.  Associations are implemented using macro style calls which are basically methods calls in the context of the class object.  There are six types:
-- belongs_to
-- has_one
-- has_many
-- has_many :through
-- has_one :through
-- has_and_belongs_to_many
+In Rails, an assoication is a connection between two Active Record models.  Associations are implemented using macro style calls which are basically methods calls in the context of the class object.  
+<br> There are six types:
 
-Say we want to create an association between 'Tasks' and 'Users', on the tasks side we have to delare: 
++ has_one
++ has_many
++ has_many :through
++ has_one :through
++ has_and_belongs_to_many
+
+
+<br>Say we want to create an association between 'Tasks' and 'Users', on the tasks side we have to delare: 
 
 {% highlight ruby %}
 class Tasks < ActiveRecord::Base 
