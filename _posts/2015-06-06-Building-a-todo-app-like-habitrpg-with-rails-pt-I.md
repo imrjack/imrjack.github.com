@@ -57,6 +57,8 @@ $('.date').each(function(){
 
 [the result!!]({{site.url}}/images/todo_pic.jpg)
 
+We would then of course still need to style it...
+
 
 
 
